@@ -21,3 +21,14 @@ Adapted from [https://github.com/aleczhanshi/neural_hierarchical_sequence](https
 
 # Extra Features
 - seq2seq Sequence Loss
+
+# Input data format
+```Unique Instr Id, Cycle Count, Load Address, Instruction Pointer of the Load, LLC hit/miss```
+### sample data
+``` 4, 15, 28e837c88340, 406a82, 0
+7, 261, 28e837c86f40, 406a8e, 0
+17, 277, fdfd3a8c3bc0, 406abc, 0
+29, 278, fdfd3a8c4200, 7b5749, 0
+18, 610, fdfd3a8c5d80, 406abf, 0
+24, 945, fdfd3a8c6dc0, 7b5730, 0
+60, 1122, fdfd3a8c6f00, 7b1aeb, 0 ```
